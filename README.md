@@ -9,7 +9,7 @@ A repository template for creating new examples.
 
 # BI Dashboard -  Non-Visual Export Component
 
-The following example shows how to use the [DashboardExporter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter) component in a concole application to export Dashboards in PDF format.   
+The following example shows how to use the [DashboardExporter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter) component in a console application to export Dashboards in PDF format.   
 
 The non-visual `DashboardExporter` component allows you to export the DevExpress BI Dashboard to PDF, XLS, XLSX and Image (PNG, JPEG, GIF) without referencing dashboard UI controls (DashboardDesigner/Viewer, ASPxDashboard, etc.) or DashboardConfigurator.
 
