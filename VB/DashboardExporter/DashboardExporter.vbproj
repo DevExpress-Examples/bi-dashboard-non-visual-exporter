@@ -1,13 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DashboardExporter</RootNamespace>
     <TargetFramework>net5.0</TargetFramework>
+    
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DevExpress.Dashboard.Core" Version="21.2.1-beta-21284" />
+    <PackageReference Include="DevExpress.Dashboard.Core" Version="21.2.1-beta-21274" />
   </ItemGroup>
 
 </Project>
