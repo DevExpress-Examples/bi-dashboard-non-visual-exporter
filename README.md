@@ -15,7 +15,7 @@ The following example shows how to use the [DashboardExporter](https://docs.deve
 
 ## Files to Look At
 
-- [Program.cs](./CS/DashboardExporter/Program.cs)/[Program.vb](./CS/DashboardExporter/Program.vb)
+- [Program.cs](./CS/DashboardExporter/Program.cs)([Program.vb](./CS/DashboardExporter/Program.vb))
 
 
 <!-- default file list end --> 
