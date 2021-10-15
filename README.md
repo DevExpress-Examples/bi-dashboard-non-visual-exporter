@@ -7,36 +7,21 @@
 A repository template for creating new examples.
 -->
 
-# Product/Platform - Task
+# BI Dashboard -  Non-Visual Export Component
 
-The description in a free form.
-
-Resulting image (if necessary).
-
-Implementation details: steps, code snippets, and other technical information in a free form.
+The following example shows how to use the [DashboardExporter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter) component in a concole application to export Dashboards in PDF format.   
 
 <!-- default file list -->
 
 ## Files to Look At
 
-- link.cs (VB: link.vb)
-- link.js
-- ...
+- [Program.cs](./CS/DashboardExporter/Program.cs)/[Program.vb](./CS/DashboardExporter/Program.vb)
+
 
 <!-- default file list end --> 
 
-<!-- 
+
 
 ## Documentation
 
-- link
-- link
-- ...
-
-## More Examples
-
-- link
-- link
-- ...
-
--->
+- [Printing and Exporting](https://docs.devexpress.com/Dashboard/15181/common-features/printing-and-exporting)

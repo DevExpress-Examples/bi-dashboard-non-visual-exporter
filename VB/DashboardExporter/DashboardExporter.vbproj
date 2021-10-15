@@ -1,23 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+    <RootNamespace>DashboardExporter</RootNamespace>
     <TargetFramework>net5.0</TargetFramework>
-    <OptionExplicit>On</OptionExplicit>
-    <OptionCompare>Binary</OptionCompare>
-    <OptionStrict>Off</OptionStrict>
-    <OptionInfer>On</OptionInfer>
   </PropertyGroup>
 
   <ItemGroup>
-    <Import Include="Microsoft.VisualBasic" />
-    <Import Include="System.Collections.Generic" />
-    <Import Include="System.Collections" />
-    <Import Include="System.Diagnostics" />
-    <Import Include="System" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="DevExpress.Dashboard.Core" Version="21.2.1-beta-21274" />
+    <PackageReference Include="DevExpress.Dashboard.Core" Version="21.2.1-beta-21284" />
   </ItemGroup>
 
 </Project>
