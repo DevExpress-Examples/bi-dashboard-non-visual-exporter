@@ -11,6 +11,10 @@ A repository template for creating new examples.
 
 The following example shows how to use the [DashboardExporter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter) component in a concole application to export Dashboards in PDF format.   
 
+The non-visual `DashboardExporter` component allows you to export the DevExpress BI Dashboard to PDF, XLS, XLSX and Image (PNG, JPEG, GIF) without referencing dashboard UI controls (DashboardDesigner/Viewer, ASPxDashboard, etc.) or DashboardConfigurator.
+
+To integrate `DashboardExporter` in a service, register the [DevExpress NuGet feed](https://docs.devexpress.com/GeneralInformation/116698/installation/install-devexpress-controls-using-nuget-packages/setup-visual-studios-nuget-package-manager) as a package source and install the **DevExpress.Dashboard.Core** package.
+
 <!-- default file list -->
 
 ## Files to Look At
