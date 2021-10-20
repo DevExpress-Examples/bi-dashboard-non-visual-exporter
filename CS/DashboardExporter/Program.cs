@@ -16,7 +16,8 @@ namespace DashboardExporterApp {
             exporter.DataLoadingError += Exporter_DataLoadingError;
             exporter.DashboardItemDataLoadingError += Exporter_DashboardItemDataLoadingError;
             foreach(string dashboard in dashboards) {
-                string outputFile = Path.Combine(outputFolder, $"{Path.GetFileNameWithoutExtension(dashboard)}.pdf");
+                string outputFile = Path.Combine(outputFolder, 
+                    $"{Path.GetFileNameWithoutExtension(dashboard)}.pdf");
                 using FileStream stream = new FileStream(outputFile, FileMode.OpenOrCreate);
                 try {
                     exporter.ExportToPdf(dashboard, stream);
@@ -29,14 +30,17 @@ namespace DashboardExporterApp {
             }
             Console.WriteLine("Done!");
         }
-        static void Exporter_ConnectionError(object sender, DashboardExporterConnectionErrorEventArgs e) {
+        static void Exporter_ConnectionError(object sender,
+            DashboardExporterConnectionErrorEventArgs e) {
             Console.WriteLine($"The following error occurs in {e.DataSourceName}: {e.Exception.Message}");
         }
-        static void Exporter_DataLoadingError(object sender, DataLoadingErrorEventArgs e) {
+        static void Exporter_DataLoadingError(object sender, 
+            DataLoadingErrorEventArgs e) {
             foreach(DataLoadingError error in e.Errors)
                 Console.WriteLine($"The following error occurs in {error.DataSourceName}: {error.Error}");
         }
-        static void Exporter_DashboardItemDataLoadingError(object sender, DashboardItemDataLoadingErrorEventArgs e) {
+        static void Exporter_DashboardItemDataLoadingError(object sender, 
+            DashboardItemDataLoadingErrorEventArgs e) {
             foreach(DashboardItemDataLoadingError error in e.Errors)
                 Console.WriteLine($"The following error occurs in {error.DashboardItemName}: {error.Error}");
         }
