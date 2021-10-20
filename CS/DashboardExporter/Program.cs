@@ -32,17 +32,20 @@ namespace DashboardExporterApp {
         }
         static void Exporter_ConnectionError(object sender,
             DashboardExporterConnectionErrorEventArgs e) {
-            Console.WriteLine($"The following error occurs in {e.DataSourceName}: {e.Exception.Message}");
+            Console.WriteLine(
+                $"The following error occurs in {e.DataSourceName}: {e.Exception.Message}");
         }
         static void Exporter_DataLoadingError(object sender, 
             DataLoadingErrorEventArgs e) {
             foreach(DataLoadingError error in e.Errors)
-                Console.WriteLine($"The following error occurs in {error.DataSourceName}: {error.Error}");
+                Console.WriteLine(
+                    $"The following error occurs in {error.DataSourceName}: {error.Error}");
         }
         static void Exporter_DashboardItemDataLoadingError(object sender, 
             DashboardItemDataLoadingErrorEventArgs e) {
             foreach(DashboardItemDataLoadingError error in e.Errors)
-                Console.WriteLine($"The following error occurs in {error.DashboardItemName}: {error.Error}");
+                Console.WriteLine(
+                    $"The following error occurs in {error.DashboardItemName}: {error.Error}");
         }
     }
 }
