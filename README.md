@@ -24,8 +24,12 @@ To integrate `DashboardExporter` in a service, register the [DevExpress NuGet fe
 
 <!-- default file list end --> 
 
-
-
 ## Documentation
 
 - [Printing and Exporting](https://docs.devexpress.com/Dashboard/15181/common-features/printing-and-exporting)
+
+## More Examples
+
+-  [BI Dashboard - How to Use MailKit to Send a Dashboard as a Document in PDF](https://github.com/DevExpress-Examples/bi-dashboard-mailkit-export)
+- [BI Dashboard - Non-Visual Custom Export](https://github.com/DevExpress-Examples/bi-dashboard-non-visual-custom-export)
+-  [BI Dashboard - How to Email a Dashboard that Displays Different Data Depending on the Addressee](https://github.com/DevExpress-Examples/bi-dashboard-mailkit-export-console-app)
