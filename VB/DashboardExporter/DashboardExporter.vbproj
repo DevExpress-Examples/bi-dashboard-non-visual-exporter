@@ -3,11 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <RootNamespace>DashboardExporter</RootNamespace>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DevExpress.Dashboard.Core" Version="21.2.1-beta-21284" />
+    <PackageReference Include="DevExpress.Dashboard.Core" Version="21.2.10" />
   </ItemGroup>
 
 </Project>
