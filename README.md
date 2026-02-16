@@ -35,7 +35,7 @@ To integrate `DashboardExporter` in a service, register the [DevExpress NuGet fe
 - [BI Dashboard - Non-Visual Custom Export](https://github.com/DevExpress-Examples/bi-dashboard-non-visual-custom-export)
 -  [BI Dashboard - How to Email a Dashboard that Displays Different Data Depending on the Addressee](https://github.com/DevExpress-Examples/bi-dashboard-mailkit-export-console-app)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=bi-dashboard-non-visual-exporter&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=bi-dashboard-non-visual-exporter&~~~was_helpful=no)
 
